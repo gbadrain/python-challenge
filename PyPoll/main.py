@@ -6,8 +6,11 @@ import csv
 import os
 
 # Files to load and output (update with correct file paths)
-file_to_load = "/Users/GURU/Desktop/python-challenge/PyPoll/Resources/election_data.csv"  # Input file path
-file_to_output = "/Users/GURU/Desktop/python-challenge/PyPoll/analysis/election_analysis.txt"  # Output file path
+#file_to_load = "/Users/GURU/Desktop/python-challenge/PyPoll/Resources/election_data.csv"  # Input file path
+#file_to_output = "/Users/GURU/Desktop/python-challenge/PyPoll/analysis/election_analysis.txt"  # Output file path
+file_to_load = "PyPoll/Resources/election_data.csv"
+file_to_output = "PyPoll/analysis/election_analysis.txt"
+
 
 # Initialize variables to track the election data
 total_votes = 0  # Track the total number of votes cast

@@ -2,11 +2,16 @@ import csv
 import os
 
 # Files to load and output (update with correct file paths)
-file_to_load = "/Users/GURU/Desktop/python-challenge/PyBank/Resources/budget_data.csv"
-file_to_output = "/Users/GURU/Desktop/python-challenge/PyBank/analysis/budget_analysis.txt"
+#file_to_load = "/Users/GURU/Desktop/python-challenge/PyBank/Resources/budget_data.csv"
+#file_to_output = "/Users/GURU/Desktop/python-challenge/PyBank/analysis/budget_analysis.txt"
+file_to_load = "PyBank/Resources/budget_data.csv"
+file_to_output = "PyBank/analysis/budget_analysis.txt"
+
+
 # Create the analysis directory if it doesn't exist
 # If it doesn't exist, it will show ERROR
-os.makedirs("analysis", exist_ok=True)
+#os.makedirs("analysis", exist_ok=True)
+#os.makedirs("PyBank/analysis", exist_ok=True)
 
 # Define variables to track the financial data
 total_months = 0
